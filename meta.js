@@ -11,7 +11,7 @@ module.exports = {
         },
         {
           name: 'Dalsi dokument',
-          content: 'Other-Documents.mdx',
+          content: 'Other-Document.mdx',
         },
       ],
     },
