@@ -1,19 +1,34 @@
 module.exports = {
   sections: [
     {
-      name: 'Intro',
+      name: 'Getting Started',
+      content: 'Getting-Started.mdx',
       depth: 0,
-      content: 'Intro.mdx',
       sections: [
-        { name: 'Konvence komitovani', 
+        {
+          name: 'Konvence komitovani',
           content: 'Commit-Conventions.mdx',
-          customPath: 'conventions', 
+          customPath: 'conventions',
+          depth: 1,
         },
         {
           name: 'Dalsi dokument',
           content: 'Other-Document.mdx',
+          depth: 1,
         },
       ],
     },
-  ]
+    {
+      name: 'Dalsi sekce',
+      depth: 0,
+      content: 'Section-Neco.mdx',
+      sections: [
+        {
+          name: 'Bezva Veci',
+          content: 'Bezva-Veci.mdx',
+          depth: 1,
+        },
+      ]
+    }
+  ],
 };
