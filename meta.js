@@ -28,7 +28,7 @@ module.exports = {
           content: 'Bezva-Veci.mdx',
           depth: 1,
         },
-      ]
-    }
+      ],
+    },
   ],
 };
